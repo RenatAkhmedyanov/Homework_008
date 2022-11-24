@@ -10,7 +10,7 @@ int[,] GetSpiral(int n)
 {
     int[,] array = new int[n, n];
     int startValue = 1;
-    for (int i = 1; i <= n; i++)
+    for (int i = 1; i < n; i++)
     {
         for (int j = i - 1; j < n - i + 1; j++)
         {
